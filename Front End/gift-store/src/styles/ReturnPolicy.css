@@ -1,0 +1,86 @@
+/* ------------------------------
+   PAGE BACKGROUND
+------------------------------ */
+.return-page {
+  background: #f0f2f5;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* ------------------------------
+   CARD STYLE
+------------------------------ */
+.return-card {
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+
+/* ------------------------------
+   SECTION SPACING
+------------------------------ */
+.return-section,
+.return-text-content > * {
+  margin-bottom: 0 !important;
+}
+
+/* ------------------------------
+   MAIN HEADING (1., 2., etc.)
+------------------------------ */
+.return-section-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #222;
+  border-left: 5px solid #17a2b8; /* Teal for Return Policy */
+  padding-left: 12px;
+  margin-top: 0 !important;
+}
+
+/* ------------------------------
+   PARAGRAPHS
+------------------------------ */
+.return-text-formatted {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-top: 0 !important;
+}
+
+/* ------------------------------
+   BULLET LISTS
+------------------------------ */
+.return-list {
+  padding-left: 22px;
+  margin-top: 0 !important;
+}
+
+.return-list li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #555;
+  list-style-type: disc;
+}
+
+/* ------------------------------
+   RESPONSIVE ADJUSTMENTS
+------------------------------ */
+@media (max-width: 768px) {
+  .return-card {
+    padding: 20px;
+  }
+
+  .return-section-title {
+    font-size: 20px;
+  }
+
+  .return-text-formatted {
+    font-size: 15px;
+  }
+
+  .return-list li {
+    font-size: 14px;
+  }
+}

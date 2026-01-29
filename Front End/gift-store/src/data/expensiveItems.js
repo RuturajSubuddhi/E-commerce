@@ -1,0 +1,58 @@
+export const expensiveItems = [
+  {
+    id: 1,
+    title: "One Piece Luffy Gear 5 Premium Collectible Statue || ONE PIECE",
+    img: "/assets/ExpensiveImage-1.webp",
+    price: 5999,
+    oldPrice: 7999,
+  },
+  {
+    id: 2,
+    title: "Naruto Sage of Six Paths Action Figure || NARUTO",
+    img: "/assets/ExpensiveImage-2.webp",
+    price: 4999,
+    oldPrice: 6999,
+  },
+  {
+    id: 3,
+    title: "Dragon Ball Z Super Saiyan Goku Limited Edition Statue",
+    img: "/assets/ExpensiveImage-3.webp",
+    price: 8999,
+    oldPrice: 11999,
+  },
+  {
+    id: 4,
+    title: "Attack on Titan Levi Ackerman Masterpiece Figure",
+    img: "/assets/ExpensiveImage-4.jpg",
+    price: 6999,
+    oldPrice: 9999,
+  },
+  {
+    id: 5,
+    title: "Demon Slayer Tanjiro Kamado Katana Replica",
+    img: "/assets/ExpensiveImage-5.jpg",
+    price: 12999,
+    oldPrice: 15999,
+  },
+  {
+    id: 6,
+    title: "Demon Slayer Tanjiro Kamado Katana Replica",
+    img: "/assets/ExpensiveImage-6.jpg",
+    price: 12999,
+    oldPrice: 15999,
+  },
+  {
+    id: 7,
+    title: "Demon Slayer Tanjiro Kamado Katana Replica",
+    img: "/assets/ExpensiveImage-7.jpg",
+    price: 12999,
+    oldPrice: 15999,
+  },
+  {
+    id: 8,
+    title: "Demon Slayer Tanjiro Kamado Katana Replica",
+    img: "/assets/ExpensiveImage-1.webp",
+    price: 12999,
+    oldPrice: 15999,
+  },
+];

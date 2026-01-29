@@ -1,0 +1,80 @@
+.jujutsukaisen-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.jujutsukaisen-banner {
+    background-image: url("/assets/posters/jujutsukaisen/jujutkaisen-banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 3rem;
+    color: #00bcd4; /* Cyan blue for JJK theme */
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.jujutsukaisen-card {
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.jujutsukaisen-card:hover {
+    border-color: #00bcd4;
+}
+
+.jujutsukaisen-img {
+    width: fit-content;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15%;
+    margin-top: 15px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #00bcd4;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 1rem;
+    color: #00bcd4;
+}
+
+.old-price {
+    font-size: 0.9rem;
+    color: #999;
+}

@@ -1,0 +1,84 @@
+/* Navbar background */
+.navbar.bg-black {
+  background-color: #000 !important;
+}
+
+/* Navbar brand (logo) */
+.navbar-dark .navbar-brand img {
+  max-height: 45px;
+}
+
+/* Navbar links */
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #ff4d4f !important; /* Hover red */
+}
+
+/* Dropdown menu */
+.navbar-dark .dropdown-menu {
+  background-color: #000;
+  border: none;
+  border-radius: 0;
+  min-width: 200px;
+  padding: 0;
+}
+
+.navbar-dark .dropdown-menu .dropdown-item {
+  color: #fff;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.navbar-dark .dropdown-menu .dropdown-item:hover,
+.navbar-dark .dropdown-menu .dropdown-item:focus {
+  background-color: #1a1a1a;
+  color: #ff4d4f;
+}
+
+/* Align right-side icons */
+.navbar-dark .navbar-nav.ms-auto .nav-link {
+  padding: 0 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-dark .navbar-nav.ms-auto .nav-link svg {
+  font-size: 1.3rem;
+  stroke-width: 2;
+  transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav.ms-auto .nav-link:hover svg {
+  color: #ff4d4f;
+}
+
+/* Mobile toggle */
+.navbar-toggler {
+  border: none;
+}
+
+/* .navbar-toggler-icon {
+  filter: invert(1); 
+} */
+/* ===============================
+   MOBILE TOGGLE ICON (ORANGE)
+================================ */
+
+.navbar-dark .navbar-toggler {
+  border: 1px solid #ff7a00;
+}
+
+/* Custom orange hamburger icon */
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,122,0,1)' stroke-width='2.5' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,166 @@
+/* =====================
+   Scoped Auth Modal Only
+===================== */
+.auth-modal {
+  --primary-cyan: #00ffff;
+  --primary-pink: #ff00ff;
+  --primary-yellow: #ffff00;
+}
+
+/* =====================
+   Modal Layout Fix
+===================== */
+.auth-modal .modal-dialog {
+  max-width: 420px !important;
+  margin: 0 auto;
+}
+
+.auth-modal .modal-content {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+/* Modal backdrop */
+.auth-modal .modal-backdrop.show {
+  opacity: 0.8;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1));
+}
+
+/* =====================
+   Card Base
+===================== */
+.auth-modal .auth-card {
+  perspective: 1200px;
+  width: 360px;
+  height: 530px;
+  /* max-width: 360px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: floatCard 4s ease-in-out infinite;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  /* padding: 20px; */
+}
+
+/* Floating animation */
+@keyframes floatCard {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* =====================
+   Modern Glassmorphism
+===================== */
+.auth-modal .modern-theme {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:
+    0 0 25px rgba(255, 255, 255, 0.05),
+    inset 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Moving gradient border */
+.auth-modal .modern-theme::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(130deg, var(--primary-cyan), var(--primary-pink), var(--primary-yellow), var(--primary-cyan));
+  background-size: 300%;
+  animation: borderMove 8s linear infinite;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 0;
+}
+
+@keyframes borderMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+/* =====================
+   Flip Animation
+===================== */
+.auth-modal .auth-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+ 
+}
+
+.auth-modal .auth-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+/* Front & Back */
+.auth-modal .auth-front,
+.auth-modal .auth-back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+  padding: 20px;
+  background-image: url("/gift-store//assets/videoframe_3540.png");
+}
+
+.auth-modal .auth-back {
+  transform: rotateY(180deg);
+} 
+
+/* =====================
+   Text + Inputs + Buttons
+===================== */
+.auth-modal .auth-front h2,
+.auth-modal .auth-back h2 {
+  text-align: center;
+  color: var(--primary-cyan);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.auth-modal .auth-front input,
+.auth-modal .auth-back input {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  transition: all 0.3s ease;
+}
+
+.auth-modal .auth-front input:focus,
+.auth-modal .auth-back input:focus {
+  border-color: var(--primary-cyan);
+  box-shadow: 0 0 10px var(--primary-cyan);
+  outline: none;
+}
+
+/* Only affects auth modal buttons */
+.auth-modal .auth-btn {
+  background: linear-gradient(90deg, var(--primary-cyan), var(--primary-pink));
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.auth-modal .auth-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--primary-cyan), 0 0 30px var(--primary-pink);
+}

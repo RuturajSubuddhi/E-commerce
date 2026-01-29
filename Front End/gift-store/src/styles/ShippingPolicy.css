@@ -1,0 +1,112 @@
+/* ------------------------------
+   PAGE BACKGROUND
+------------------------------ */
+.privacy-page,
+.shipping-page {
+  background: #f0f2f5;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* ------------------------------
+   CARD STYLE
+------------------------------ */
+.privacy-card,
+.shipping-card {
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+
+/* ------------------------------
+   SECTION SPACING
+------------------------------ */
+.shipping-section,
+.policy-text-content > * {
+  margin-bottom: 25px;
+}
+
+/* ------------------------------
+   MAIN HEADING
+------------------------------ */
+.shipping-title,
+.policy-section-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #222;
+  border-left: 5px solid;
+  padding-left: 12px;
+  margin-top: 25px;
+}
+
+/* Specific border colors */
+.shipping-title {
+  border-color: #17a2b8; /* Teal for shipping */
+}
+
+.policy-section-title {
+  border-color: #ff8c00; /* Orange for privacy */
+}
+
+/* ------------------------------
+   SUBHEADING
+------------------------------ */
+.shipping-subtitle,
+.policy-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  color: #444;
+  margin-top: 18px;
+  margin-left: 12px;
+}
+
+/* ------------------------------
+   PARAGRAPHS
+------------------------------ */
+.shipping-text,
+.policy-text-formatted {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* ------------------------------
+   BULLET LISTS
+------------------------------ */
+.shipping-list,
+.policy-list {
+  padding-left: 22px;
+  margin-top: 10px;
+}
+
+.shipping-list li,
+.policy-list li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #555;
+  list-style-type: disc;
+}
+
+/* ------------------------------
+   RESPONSIVE ADJUSTMENTS
+------------------------------ */
+@media (max-width: 768px) {
+  .shipping-card,
+  .privacy-card {
+    padding: 20px;
+  }
+
+  .shipping-title,
+  .policy-section-title {
+    font-size: 20px;
+  }
+
+  .shipping-subtitle,
+  .policy-subtitle {
+    font-size: 16px;
+  }
+}

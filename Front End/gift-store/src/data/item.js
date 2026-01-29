@@ -1,0 +1,51 @@
+ export const items = [
+  {
+    id: 1,
+    title: "One Piece Luffy Gear 5 Metal Keychain Keyring || ONE PIECE",
+    img: "/assets/ExpensiveImage-1.webp",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 2,
+    title: "One Piece Luffy Anime Action Figures 3D Rubber Keychain || ONE PIECE",
+    img: "/assets/ExpensiveImage-5.jpg",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 3,
+    title: "Naruto Uzumaki Metal Keychain Keyring || NARUTO",
+    img: "/assets/ExpensiveImage-2.webp",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 4,
+    title: "Kakashi Hatake Anime Action Figures 3D Rubber Keychain || NARUTO",
+    img: "/assets/ExpensiveImage-3.webp",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 5,
+    title: "Naruto Uzumaki White Dress Metal Keychain Keyring || NARUTO",
+    img: "/assets/ExpensiveImage-4.jpg",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 6,
+    title: "Naruto Uzumaki White Dress Metal Keychain Keyring || NARUTO",
+    img: "/assets/ExpensiveImage-5.jpg",
+    price: 99,
+    oldPrice: 299,
+  },
+  {
+    id: 7,
+    title: "Naruto Uzumaki White Dress Metal Keychain Keyring || NARUTO",
+    img: "/assets/ExpensiveImage-6.jpg",
+    price: 99,
+    oldPrice: 299,
+  },
+];

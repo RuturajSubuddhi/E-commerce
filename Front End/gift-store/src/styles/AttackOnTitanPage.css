@@ -1,0 +1,99 @@
+/* AttackOnTitanPage.css */
+
+.aot-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.aot-banner {
+    background-image: url("/assets/posters/attackontitan/ATTACK-ON-TITAN-banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 3rem;
+    color: #c0392b; /* Dark red theme for Attack on Titan */
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.aot-card {
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.aot-card:hover {
+    border-color: #c0392b;
+    transform: scale(1.02);
+}
+
+.aot-img {
+    width: fit-content;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15%;
+    margin-top: 15px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #c0392b;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 1rem;
+    color: #e74c3c;
+}
+
+.old-price {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.price-section {
+    margin-top: 5px;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+img.attack-details-img {
+    width: -webkit-fill-available;
+}

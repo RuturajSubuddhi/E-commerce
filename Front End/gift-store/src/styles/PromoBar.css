@@ -1,0 +1,35 @@
+.scrolling-text {
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.bg-danger.text-white.py-0.overflow-hidden {
+  --bs-bg-opacity: 1;
+  background: linear-gradient(90deg, #FFD12A, #FF6F00, #FF2D00);
+  background-size: 200% 200%;
+  animation: flameShift 6s ease infinite;
+}
+
+@keyframes flameShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

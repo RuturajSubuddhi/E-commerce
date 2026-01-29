@@ -1,0 +1,56 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 65px;
+  height: 65px;
+  background: linear-gradient(90deg, #FFD12A, #FF6F00, #FF2D00);
+  background-size: 300% 300%;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 34px;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(255, 109, 0, 0.4);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: flameShift 6s ease infinite, floatPulse 3s ease-in-out infinite;
+}
+
+/* WhatsApp icon positioning */
+.whatsapp-icon {
+  margin: 0;
+}
+
+/* Flame-like gradient shift animation */
+@keyframes flameShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Gentle floating bounce animation */
+@keyframes floatPulse {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+/* Hover effect — bright glow and scale-up */
+.whatsapp-float:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 25px rgba(255, 100, 0, 0.8);
+  animation-play-state: paused; /* pause bounce while hovering */
+}

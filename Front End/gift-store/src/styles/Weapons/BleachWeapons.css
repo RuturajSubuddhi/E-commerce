@@ -1,0 +1,102 @@
+.wooden-katana-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.bleach-weapons-banner {
+    background-image: url("/assets/weapons/Bleach-weapons/bleach-weapons-banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.led-katana-banner2 {
+    background-image: url("/assets/weapons/lead-katana/led-katana banner2.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.filter-section {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+.katana-card {
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.katana-card:hover {
+    border-color: #dc3545;
+}
+
+.image-container {
+    position: relative;
+}
+
+.katana-img {
+    width: fit-content !important;
+    height: 250px !important;
+    object-fit: cover !important;
+    border-radius: 15%;
+    margin-top: 50px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #dc3545;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+}
+
+.price-section {
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1rem;
+}
+
+.old-price {
+    font-size: 0.9rem;
+}

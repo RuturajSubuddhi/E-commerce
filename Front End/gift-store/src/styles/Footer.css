@@ -1,0 +1,30 @@
+.footer {
+  background-color: #000; /* Pure black background */
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  color: #000;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  background: #dc3545; /* Bootstrap red */
+  color: #fff;
+}

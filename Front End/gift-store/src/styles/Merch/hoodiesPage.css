@@ -1,0 +1,103 @@
+.hoodies-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+.hoodies-banner {
+    background-image: url("/assets/merch/hoodies/hoodies-banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoodies-banner2 {
+    background-image: url("/assets/merch/wooden-katana/wooden-katana banner2.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-text {
+    font-size: 3rem;
+    color: #fefefe;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hoodies-card {
+    background-color: #fff;
+    border: 1px solid #222;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.hoodies-card:hover {
+    border-color: #00aaff;
+    transform: scale(1.02);
+}
+
+.hoodies-img {
+    width: fit-content;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15%;
+    margin-top: 15px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #00aaff;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-size: 1rem;
+    color: #00aaff;
+}
+
+.old-price {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.price-section {
+    margin-top: 5px;
+}
+
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+}

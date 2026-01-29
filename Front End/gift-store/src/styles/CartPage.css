@@ -1,0 +1,125 @@
+/* Smooth Anime Gradient Background */
+.cart-page-container {
+    min-height: 100vh;
+    /* background: linear-gradient(90deg, #FFD12A, #FF6F00, #FF2D00); */
+    background: #fff;
+    background-size: 200% 200%;
+    animation: flameShift 6s ease infinite;
+    color: #e0f7fa;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+
+/* Gradient Movement Animation */
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Cart List Container */
+.cart-list {
+    backdrop-filter: blur(12px);
+    background: rgb(245, 245, 247);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+/* Cart Item Styling */
+.cart-item {
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    transition: all 0.35s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.cart-item:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.02);
+    box-shadow: 0 0 18px rgba(255, 0, 110, 0.4);
+}
+
+/* Product Image */
+.cart-item-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.4s ease, border-color 0.3s ease;
+}
+
+.cart-item-img:hover {
+    transform: scale(1.1);
+    border-color: #ff006e;
+}
+
+/* Remove Button */
+.remove-btn {
+    color: #ff1744;
+    border-color: #ff1744;
+    transition: all 0.25s ease;
+}
+
+.remove-btn:hover {
+    background-color: #ff1744;
+    color: #fff;
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Total Section */
+.cart-list h4 {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 0, 110, 0.6);
+}
+
+/* Action Buttons */
+.action-btn {
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 10px 24px;
+    transition: all 0.35s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+}
+
+.action-btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.6);
+}
+
+/* Empty Cart Styling */
+.empty-cart {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.8s ease;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

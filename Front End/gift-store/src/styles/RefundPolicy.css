@@ -1,0 +1,87 @@
+/* ------------------------------
+   PAGE BACKGROUND
+------------------------------ */
+.refund-page {
+  background: #f0f2f5;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+/* ------------------------------
+   CARD STYLE
+------------------------------ */
+.refund-card {
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  margin: 0 auto;
+}
+
+/* ------------------------------
+   SECTION SPACING
+------------------------------ */
+.refund-section,
+.refund-text-content > * {
+  margin-bottom: 0 !important;
+}
+
+/* ------------------------------
+   MAIN HEADING (1., 2., etc.)
+------------------------------ */
+.refund-section-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #222;
+  border-left: 5px solid #dc3545; /* Red for Refund & Cancellation */
+  padding-left: 12px;
+  margin-top: 0 !important;
+}
+
+/* ------------------------------
+   PARAGRAPHS
+------------------------------ */
+.refund-text-formatted {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+  margin-top: 0 !important;
+}
+
+/* ------------------------------
+   BULLET LISTS
+------------------------------ */
+.refund-list {
+  padding-left: 22px;
+  margin-top: 0 !important;
+}
+
+.refund-list li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #555;
+  list-style-type: disc;
+  font-weight: 800;
+}
+
+/* ------------------------------
+   RESPONSIVE ADJUSTMENTS
+------------------------------ */
+@media (max-width: 768px) {
+  .refund-card {
+    padding: 20px;
+  }
+
+  .refund-section-title {
+    font-size: 20px;
+  }
+
+  .refund-text-formatted {
+    font-size: 15px;
+  }
+
+  .refund-list li {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,52 @@
+/* src/styles/Banner.css */
+.stock-banner img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stock-banner img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.banner-wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000; /* optional, helps avoid white gaps */
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.banner-image:hover {
+  transform: scale(1.02);
+}
+
+/* 🌐 Responsive Design */
+@media (max-width: 992px) {
+  .banner-image {
+    max-height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-image {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-image {
+    max-height: 180px;
+    border-radius: 6px;
+  }
+}

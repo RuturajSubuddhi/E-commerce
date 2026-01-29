@@ -1,0 +1,48 @@
+export const tomAndJerryKeychains = [
+  {
+    id: 1,
+    title: "Tom and Jerry Classic Cartoon Metal Keychain Keyring || TOM AND JERRY",
+    img: "/assets/Keychains/TomandJerryKeychains/tom1.jpg",
+    price: 99,
+    oldPrice: 299,
+    soldOut: false,
+    discount: 66,
+  },
+  {
+    id: 2,
+    title: "Tom and Jerry Friendship Enamel Keychain || TOM AND JERRY",
+    img: "/assets/Keychains/TomandJerryKeychains/tom2.webp",
+    price: 109,
+    oldPrice: 299,
+    soldOut: false,
+    discount: 64,
+  },
+  {
+    id: 3,
+    title: "Jerry Cheese Lover Cute Keychain || TOM AND JERRY",
+    img: "/assets/Keychains/TomandJerryKeychains/tom3.webp",
+    price: 89,
+    oldPrice: 249,
+    soldOut: false,
+    discount: 64,
+  },
+  {
+    id: 4,
+    title: "Tom Chasing Jerry Metal Keychain || TOM AND JERRY",
+    img: "/assets/Keychains/TomandJerryKeychains/tom4.webp",
+    price: 99,
+    oldPrice: 299,
+    soldOut: false,
+    discount: 66,
+  },
+
+   {
+    id: 5,
+    title: "Tom Chasing Jerry Metal Keychain || TOM AND JERRY",
+    img: "/assets/Keychains/TomandJerryKeychains/tom5.webp",
+    price: 99,
+    oldPrice: 299,
+    soldOut: false,
+    discount: 66,
+  },
+];

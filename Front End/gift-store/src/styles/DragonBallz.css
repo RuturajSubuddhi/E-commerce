@@ -1,0 +1,96 @@
+.dragonballz-page {
+    background-color: #000;
+    min-height: 100vh;
+}
+
+/* 🔥 Banner Section */
+.dragonballz-banner {
+    background-image: url("/assets/dragon-ball-z-anime-action-figure/dragon-ball-z/dragon-ball-z-banner.webp");
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #ff9800;
+}
+
+.banner-text {
+    font-size: 3rem;
+    color: #ff9800;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px rgba(255, 152, 0, 0.7), 0 0 25px rgba(33, 150, 243, 0.5);
+}
+
+/* 🧱 Card Styling */
+.dragonballz-card {
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.dragonballz-card:hover {
+    border-color: #ff3d00;
+    /* hover accent color */
+
+}
+
+/* 🖼️ Image Styling */
+.dragonballz-img {
+    width: 250 !important;
+    height: 250px !important;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff3d00;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.sold-out-badge {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-section {
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1rem;
+    color: #ff3d00;
+}
+
+.old-price {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.image-container img {
+    width: 250px !important;
+    object-fit: cover;
+}
