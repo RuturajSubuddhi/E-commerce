@@ -103,7 +103,8 @@ class StripePaymentController extends Controller
             //stripe pay
             $payment_method_id = $request->payment_info['paymentMethod']['id'];
 
-            Stripe\Stripe::setApiKey('sk_test_51MyBGiE9CkClsfMvrRd6Dwye9nJpgtsR5Mw2fQABvGzZGX9L6jC9KJVFEywlGthv4dAA1iZAKCBtMxfOXO6jsTVa00oa5RkXDv');
+           Stripe\Stripe::setApiKey(config('services.stripe.secret'));
+
 
 
             if ($total_payable != $request->total_payable) {
