@@ -1,2 +1,39 @@
-# E-commerce-
-GiftStore is a full-featured E-Commerce web application built for anime &amp; collectible lovers. It allows users to explore a wide range of unique items — from posters and LED katanas to action figures — and enjoy a smooth, modern shopping experience.
+🛒 E-commerce Application
+
+A full-stack E-commerce web application built with Laravel (Backend) and a modern Frontend (Vite-based).
+The application supports product management, cart & checkout flow, Stripe payments, and order management.
+
+🚀 Features
+
+User authentication
+
+Product listing & offers
+
+Cart & checkout system
+
+Secure Stripe payment integration
+
+Order management
+
+Shipping address handling
+
+Email notifications after order placement
+
+🛠 Tech Stack
+Backend
+
+Laravel (PHP)
+
+MySQL
+
+Stripe Payment Gateway
+
+RESTful APIs
+
+Frontend
+
+Vite
+
+JavaScript / React (if applicable)
+
+HTML / CSS
